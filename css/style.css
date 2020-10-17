@@ -14,8 +14,8 @@ body
     background-size: cover;
     background-repeat: no-repeat;
     backface-visibility: hidden; 
-    animation: slider_animation 200s linear infinite 0s;
-    animation-delay: 5s;
+    animation: slider_animation 230s linear infinite 0s;
+/*     animation-delay: 5s; */
     animation-timing-function: ease-in-out;
 }   
 @keyframes slider_animation
