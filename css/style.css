@@ -54,6 +54,8 @@ body
     margin:30vh auto 0 auto;
     text-align: center;
     justify-content: center;
+    background-color:black;
+    opacity:.6;
     /* color:linear-gradient(to right, red rgb(56, 18, 143) rgb(109, 13, 13)); */
 /* z-index: 1; */
 }
