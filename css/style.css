@@ -8,7 +8,7 @@ body
     height:100vh;
     width: 100vw;
     background-color: #ff0000;
-    background: url(https://github.com/Shubhamkumarweb/Game-of-Quotes/tree/main/img/All.jpg);
+    background: url(https://github.com/Shubhamkumarweb/Game-of-Quotes/img/All.jpg);
     /* position: absolute; */
     background-position:center center;
     background-size: cover;
