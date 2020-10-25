@@ -8,37 +8,38 @@ body
     height:100vh;
     width: 100vw;
     background-color: #ff0000;
-    background: url(https://shubhamkumarweb.github.io/Game-of-Quotes/img/All.jpg);
+    background: url(../ironthrones.png);
     /* position: absolute; */
     background-position:center center;
     background-size: cover;
     background-repeat: no-repeat;
     backface-visibility: hidden; 
-    animation: slider_animation 230s linear infinite 0s;
-/*     animation-delay: 5s; */
+    animation: slider_animation 200s linear infinite 0s;
+    animation-delay: 5s;
     animation-timing-function: ease-in-out;
 }   
-@keyframes slider_animation
+/* @keyframes slider_animation
 {
-     0%{background-image: url(https://shubhamkumarweb.github.io/Game-of-Quotes/img/All.jpg);}
-    5%{background-image: url(https://shubhamkumarweb.github.io/Game-of-Quotes/img/Nightking.jpg);}
-    10%{background-image: url(https://shubhamkumarweb.github.io/Game-of-Quotes/img/tyrion.jpg);}
-    15%{background-image: url(https://shubhamkumarweb.github.io/Game-of-Quotes/img/counsil.jpg);}
-    20%{background-image: url(https://shubhamkumarweb.github.io/Game-of-Quotes/img/commander.jpg);}
-    25%{background-image: url(https://shubhamkumarweb.github.io/Game-of-Quotes/img/jaime.jpg);}
-    30%{background-image: url(https://shubhamkumarweb.github.io/Game-of-Quotes/img/jon+ghost.jpg);}
-    35%{background-image: url(https://shubhamkumarweb.github.io/Game-of-Quotes/img/sansa+petyr.jpg);}
-    40%{background-image: url(https://shubhamkumarweb.github.io/Game-of-Quotes/img/ramsay.jpg);}
-    50%{background-image: url(https://shubhamkumarweb.github.io/Game-of-Quotes/img/hound.jpg);}
-    55%{background-image: url(https://shubhamkumarweb.github.io/Game-of-Quotes/img/Arya.jpg);}
-    60%{background-image: url(https://shubhamkumarweb.github.io/Game-of-Quotes/img/Robb.jpg);}
-    65%{background-image: url(https://shubhamkumarweb.github.io/Game-of-Quotes/img/Game-Of-Thrones-1-1800x1013.jpg);}
-    70%{background-image: url(https://shubhamkumarweb.github.io/Game-of-Quotes/img/jon.jpg);}
-    75%{background-image: url(https://shubhamkumarweb.github.io/Game-of-Quotes/img/cersie.jpg);}
-    80%{background-image: url(https://shubhamkumarweb.github.io/Game-of-Quotes/img/Nightking.jpg);}
-    85%{background-image: url(https://shubhamkumarweb.github.io/Game-of-Quotes/img/brienne.jpg);}
-    90%{background-image: url(https://shubhamkumarweb.github.io/Game-of-Quotes/img/Game-Of-Thrones-6-1800x1013.jpg);} 
-}
+    0%{background-image: url(../img/All.jpg);}
+    5%{background-image: url(../img/Nightking.jpg);}
+    10%{background-image: url(../img/tyrion.jpg);}
+    15%{background-image: url(../img/counsil.jpg);}
+    20%{background-image: url(../img/commander.jpg);}
+    25%{background-image: url(../img/jaime.jpg);}
+    30%{background-image: url(../img/jon+ghost.jpg);}
+    35%{background-image: url(../img/sansa+petyr.jpg);}
+    40%{background-image: url(../img/ramsay.jpg);}
+    50%{background-image: url(../img/hound.jpg);}
+    55%{background-image: url(../img/Arya.jpg);}
+    60%{background-image: url(../img/Robb.jpg);}
+    65%{background-image: url(../img/Game-Of-Thrones-1-1800x1013.jpg);}
+    70%{background-image: url(../img/jon.jpg);}
+    75%{background-image: url(../img/cersie.jpg);}
+    80%{background-image: url(../img/Nightking.jpg);}
+    85%{background-image: url(../img/brienne.jpg);}
+    /* 90%{background-image: url(../img/Game-Of-Thrones-2-1800x1013.jpg);} */
+    /* 90%{background-image: url(../img/Game-Of-Thrones-6-1800x1013.jpg);} 
+} */
 .container
 {
     
@@ -50,8 +51,8 @@ body
     padding: 2rem;
     width:75%;
     color:white;
-    min-height:250px;
-    margin:150px auto;
+    height:250px;
+    margin:30vh auto 0 auto;
     text-align: center;
     justify-content: center;
     /* color:linear-gradient(to right, red rgb(56, 18, 143) rgb(109, 13, 13)); */
