@@ -74,4 +74,6 @@ body
     color: white;
     font-weight: 100;
     outline:none;
+    padding:6px 10px;
+    cursor:pointer;
 }
