@@ -45,7 +45,7 @@ body
     
     display: flex;
     flex-direction: column;
-    box-shadow: 4px 4px 12px 0px  rgba(0,0,0,0.3);
+   box-shadow:10px 6px 10px 0px rgba(50, 50, 50, 0.68);
     /* background: rgb(38, 38, 59); */
     font-size: 1.8rem;
     padding: 2rem;
